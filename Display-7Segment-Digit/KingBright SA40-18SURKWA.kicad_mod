@@ -1,0 +1,103 @@
+(footprint "KingBright SA40-18SURKWA" (version 20240108) (generator "pcbnew") (generator_version "8.0")
+  (layer "F.Cu")
+  (descr "101.2 mm (4.0 inch) Single Digit Numeric Display (Outer 4.8\"x3.54\") (Digit 3.984\"x2.34\") 10-pin")
+  (tags "digit, led, kingbright")
+  (property "Reference" "REF**" (at 0 -19.5 0)(unlocked yes)
+ (layer "F.SilkS")(uuid "708c642b-ace2-4a66-8523-2c029448e96a")
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
+  (property "Value" "KingBright SA40-18SURKWA" (at 0 -16.5 0)(unlocked yes)
+ (layer "F.Fab")(uuid "49fded82-5888-47f0-86ac-2334db1f86b5")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Footprint" "KingBright SA40-18SURKWA 101.2 mm (4.0 inch) Single Digit Numeric Display " (at 0 -57 0)(unlocked yes)
+ (layer "F.Fab")(hide yes)
+(uuid "f68f7a86-13c6-4670-b43c-c7813b673449")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SA40-18SURKWA.pdf" (at 0 0.5 0)(unlocked yes)
+ (layer "F.Fab")(hide yes)
+(uuid "c4f76713-0e00-4f06-a546-1295ae64234f")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Description" "101.2 mm (4.0 inch) Single Digit Numeric Display (Outer 4.8\"x3.54\") (Digit 3.984\"x2.34\") 10-pin" (at 0 0.5 0)(unlocked yes)
+ (layer "F.Fab")(hide yes)
+(uuid "294ae0e3-0c02-449b-991d-08240e5da805")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_rect (start -45.25 -61.25) (end 45.25 61.25)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS")(uuid "6a26b3b1-2b7d-4ae7-8ede-debafe5c0e01"))
+  (fp_rect (start -45.5 -61.5) (end 45.5 61.5)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.CrtYd")(uuid "2d185147-34eb-41da-a2a6-8a7d5b33b928"))
+  (fp_rect (start -45 -61) (end 45 61)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.Fab")(uuid "c7b7924b-9d9e-48ed-838e-0f54e6e95c73"))
+  (fp_text user "Pin Number	Function\n1	Common Anode (VCC)\n2	Segment E\n3	Segment D\n4	Segment C\n5	Decimal Point (DP)\n6	Segment B\n7	Segment A\n8	Ground (GND)\n9	Segment F\n10	Segment G" (at 18.5 -31.5 0)(unlocked yes)
+ (layer "F.SilkS")(uuid "6d96dc1b-a99e-4f35-86cd-de17e5c08706")
+    (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+  )
+  (fp_text user "${REFERENCE}" (at 0 -22.5 0)(unlocked yes)
+ (layer "F.Fab")(uuid "a50713f3-3643-4efa-9d4a-444d328ab266")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "1" thru_hole circle (at -10.16 53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "a317a449-7268-4003-86e8-456acba4cc8e")
+  )
+  (pad "2" thru_hole circle (at -5.08 53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "55b1d5df-633b-4ea0-aecd-ef7373473135")
+  )
+  (pad "3" thru_hole circle (at 0 53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "615e856c-eca2-4858-982b-9dfc73cb63fe")
+  )
+  (pad "4" thru_hole circle (at 5.08 53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "7be10da9-6aa6-4250-8c92-06d80ea78fcd")
+  )
+  (pad "5" thru_hole circle (at 10.16 53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "ebc7aaac-a3e3-4002-83fa-ef0eed9abe73")
+  )
+  (pad "6" thru_hole circle (at 10.16 -53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "4b167688-76f8-4be4-8339-1eb1114f15b3")
+  )
+  (pad "7" thru_hole circle (at 5.08 -53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "725b5677-b896-4112-8038-6bb65c7bda23")
+  )
+  (pad "8" thru_hole circle (at 0 -53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "bd7c8ab3-10ba-467b-b0b1-74e62b5f27dd")
+  )
+  (pad "9" thru_hole circle (at -5.08 -53.5) (size 1.6 1.6) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "9a128984-82fa-44fc-9cf1-176be5d7b960")
+  )
+  (pad "10" thru_hole circle (at -10.16 -53.5) (size 1.6 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")(remove_unused_layers no)
+
+(uuid "91872bf8-e4ff-4c02-9246-1719b8e6e5c2")
+  )
+  (group ""
+(uuid "08983325-85a1-4c99-9fc5-da52df32b194")
+    (members
+      "9f9c07f5-fb0a-481c-9461-f61d8f5b9dfa"
+    )
+  )
+  (group ""
+(uuid "9f9c07f5-fb0a-481c-9461-f61d8f5b9dfa")
+    (members
+      "55b1d5df-633b-4ea0-aecd-ef7373473135"
+      "615e856c-eca2-4858-982b-9dfc73cb63fe"
+      "7be10da9-6aa6-4250-8c92-06d80ea78fcd"
+      "a317a449-7268-4003-86e8-456acba4cc8e"
+      "ebc7aaac-a3e3-4002-83fa-ef0eed9abe73"
+    )
+  )
+  (model "C:/Users/easto/Downloads/SA40-18.IGS"
+    (offset (xyz 0 0 15))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
